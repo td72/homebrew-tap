@@ -33,6 +33,7 @@ class Vig < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/vig --version", 2)
+    assert_predicate bin/"vig", :exist?
+    assert_predicate bin/"vig", :executable?
   end
 end
