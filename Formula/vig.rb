@@ -7,22 +7,22 @@ class Vig < Formula
   on_macos do
     on_arm do
       url "https://github.com/td72/vig/releases/download/v#{version}/vig-aarch64-apple-darwin.tar.gz"
-      sha256 "49d5b002b54ef72fdaa367c9fd7ee8c28019e2262bd942b2975d8a11e665502c"
+      sha256 "fe64a4fa887cb56e3d66ccdd8512b108935a3428de9fbbbc71946c29a0100d7a"
     end
     on_intel do
       url "https://github.com/td72/vig/releases/download/v#{version}/vig-x86_64-apple-darwin.tar.gz"
-      sha256 "196ed9c9a0a81758e290bb30c9a1fb5ac655148a36bc01a1b0c6222b70a076e1"
+      sha256 "c40d59f626086b80b2870f4026f60ccee1362c6581c08d89fc501e1067344f6f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/td72/vig/releases/download/v#{version}/vig-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cc4f40c5720771dd3ff837509ae1d0a276af2c5a5985d4e1e82792166eaddb64"
+      sha256 "8bce1a9a03ec5a95dfd891d03c2420a3b03a1a32be00bcb822e0af9bc3d9a1ef"
     end
     on_intel do
       url "https://github.com/td72/vig/releases/download/v#{version}/vig-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5b95765890d7e549eb7d7a96e7afe1edcfb9a3139a7c0465843d92f0cc03caf1"
+      sha256 "8a6bde1070b1f19d654bb46b26de0476e5b30776de1f2c9f8f8a45c90b4ebfdc"
     end
   end
 
