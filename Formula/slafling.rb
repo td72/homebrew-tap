@@ -2,27 +2,27 @@ class Slafling < Formula
   desc "Fling messages to Slack"
   homepage "https://github.com/td72/slafling"
   license "MIT"
-  version "0.2.0"
+  version "1.0.0"
 
   on_macos do
     on_arm do
       url "https://github.com/td72/slafling/releases/download/v#{version}/slafling-aarch64-apple-darwin.tar.gz"
-      sha256 "ce45c655a875491e437c3c6b3786135347f6f1f8c1a7e5f6f03686f5b29a4041"
+      sha256 "3be6b39de6567651de8fc1492ed63ad84668954ad6bd65c8b30dd52cf3aa387c"
     end
     on_intel do
       url "https://github.com/td72/slafling/releases/download/v#{version}/slafling-x86_64-apple-darwin.tar.gz"
-      sha256 "3c809ee851913238ef8b609c370487b3a05e4b4106271bf665157b3ace0cbf58"
+      sha256 "e31f4be855f71b68f804c6e15798323fe913c2602351a1189be97b52c3db7ca8"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/td72/slafling/releases/download/v#{version}/slafling-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f43be9dd3c0994580459d5e5eee5f727209647e69324d0688bdafc75db888ef5"
+      sha256 "e5f2e47f9a08c19ddcfdb4d940b515c24900c4eeaf239605c23e00c73fc0d2c9"
     end
     on_intel do
       url "https://github.com/td72/slafling/releases/download/v#{version}/slafling-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3d812505b5624b79103f0a4ec29dfa22df202944ea1713c61f03dac2a8f6cf84"
+      sha256 "e61fca6bd69d0aace22214b1f2695f505aacc859de231b852b3ec8cda7be6104"
     end
   end
 
