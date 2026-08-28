@@ -2,23 +2,23 @@ class Vig < Formula
   desc "Git TUI side-by-side diff viewer with vim-style keybindings"
   homepage "https://github.com/td72/vig"
   license "MIT"
-  version "0.5.0"
+  version "0.6.0"
 
   on_macos do
     on_arm do
       url "https://github.com/td72/vig/releases/download/v#{version}/vig-aarch64-apple-darwin.tar.gz"
-      sha256 "3f9b4a808887e520522adebe1699f3d9871f0d0e15354b172e61ae7e4f04c2f2"
+      sha256 "9307f09d4f48d0c7c70e588d59ddc6c5c9d6e47e6c97bd52c8279020e5d32fcd"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/td72/vig/releases/download/v#{version}/vig-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f2a44216dd2f3b0fc9ea00686abff587eb2d697aaee8ea177f39643c8b40d48a"
+      sha256 "411cf455622f5ba0869af9dddf0debfa4cbbbd769106f519c94210f70a72a3ee"
     end
     on_intel do
       url "https://github.com/td72/vig/releases/download/v#{version}/vig-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3c21ae57971aa0433658b97720fc2822598863f7f24ef33bac95f9fafa0652d2"
+      sha256 "032862e8020a9202d4baec0c769c8695e08243277a21b28a1ba08e78e57d4504"
     end
   end
 
