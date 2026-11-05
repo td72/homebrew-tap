@@ -22,9 +22,10 @@ cask "viw" do
 
   caveats do
     <<~EOS
-      viw.app is signed ad hoc and not notarized, so macOS blocks its first launch.
-      Allow it once in System Settings › Privacy & Security › "Open Anyway", or clear
-      the quarantine flag:
+      viw.app is signed ad hoc and not notarized, so macOS blocks its first launch with
+      a dialog whose buttons are "Move to Trash" and "Done" — choose Done (Move to Trash
+      deletes the app), then allow it once in System Settings › Privacy & Security ›
+      "Open Anyway". Or clear the quarantine flag before the first launch:
 
         xattr -d com.apple.quarantine "#{appdir}/viw.app"
 
