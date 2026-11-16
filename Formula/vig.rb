@@ -2,23 +2,23 @@ class Vig < Formula
   desc "Read-only TUI cockpit for busy repositories - git, GitHub PRs/CI/projects, containers and processes at a glance"
   homepage "https://github.com/td72/vig"
   license "MIT"
-  version "0.19.1"
+  version "0.19.2"
 
   on_macos do
     on_arm do
       url "https://github.com/td72/vig/releases/download/v#{version}/vig-aarch64-apple-darwin.tar.gz"
-      sha256 "c191c252cf79dc33ce5612f89a6aca3e73396f7c0fc9ffc4d0b94a19e0f96c7a"
+      sha256 "e7016604c1f7d507d2c351632d31739c2ad256024c9fbf9bc2b1162c720ea7e8"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/td72/vig/releases/download/v#{version}/vig-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e14233ce857aefaf0ac3572bf1e4a475a2b4125846182564af9734dd74c82aa0"
+      sha256 "644c29c697d829211235d817020954d427615cf25624e336b65753337a6ff9fd"
     end
     on_intel do
       url "https://github.com/td72/vig/releases/download/v#{version}/vig-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0c1af196a8de74ef9b86de1714170816cf4419b54723407a5b0dcb2d8bcb1d12"
+      sha256 "dfe7b4f77c7a53d24a0977f854d33e251a100cdd55fc690ddaa70d4d67f2ff88"
     end
   end
 
