@@ -1,6 +1,6 @@
 cask "viw" do
-  version "0.4.0"
-  sha256 "35662d046807e61b828ef7158014662a46ab7bbc3adbf0cd95a060c9086d41aa"
+  version "0.4.1"
+  sha256 "0a81029b4c33e7491f4bae6387ef4c60c8330f5f948c34b2b607fd356b74dfef"
 
   url "https://github.com/td72/viw/releases/download/v#{version}/viw-#{version}-macos.zip"
   name "viw"
